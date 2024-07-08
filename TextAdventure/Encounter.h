@@ -5,11 +5,13 @@
 class Encounter
 {
 public:
-	Encounter();
+	Encounter(Player* _player, Enemy* _enemy);
 	~Encounter();
 
 private:
 	void Fight();
+	int PlayerPick();
+	int EnemyPick();
 
 	Player* player;
 	Enemy* enemy;

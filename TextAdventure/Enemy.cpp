@@ -13,3 +13,18 @@ Enemy::~Enemy()
 {
 
 }
+
+void Enemy::rockMessage()
+{
+	std::cout << "Motherfucker bouta pick rock" << "\n";
+}
+
+void Enemy::paperMessage()
+{
+	std::cout << "Motherfucker bouta pick paper" << "\n";
+}
+
+void Enemy::scissorsMessage()
+{
+	std::cout << "Motherfucker bouta pick scissors" << "\n";
+}
