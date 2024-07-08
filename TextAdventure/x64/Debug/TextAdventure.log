@@ -1,2 +1,6 @@
-﻿  TextAdventure.cpp
-  TextAdventure.vcxproj -> C:\My stuff\VerySeriousWork\TextAdventure\x64\Debug\TextAdventure.exe
+﻿  Enemy.cpp
+  Player.cpp
+  TextAdventure.cpp
+  Generating Code...
+  LINK : C:\Users\thoma\OneDrive\Documents\GitHub\TextBasedGame\TextAdventure\x64\Debug\TextAdventure.exe not found or not built by the last incremental link; performing full link
+  TextAdventure.vcxproj -> C:\Users\thoma\OneDrive\Documents\GitHub\TextBasedGame\TextAdventure\x64\Debug\TextAdventure.exe

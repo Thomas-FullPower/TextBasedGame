@@ -1,1 +1,2 @@
 C:\My stuff\VerySeriousWork\TextAdventure\x64\Debug\TextAdventure.exe
+C:\Users\thoma\OneDrive\Documents\GitHub\TextBasedGame\TextAdventure\x64\Debug\TextAdventure.exe
