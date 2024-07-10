@@ -3,3 +3,7 @@
 struct Stats {
 	int currentHealth, maxHealth, rock, paper, scissors;
 };
+
+//void clearScreen() {
+///
+//}

@@ -19,9 +19,57 @@ Encounter::~Encounter()
 
 void Encounter::Fight()
 {
+	bool fighting = true;
+	int playerPick;
+	int enemyPick;
+
 	std::cout << enemy->encounterMessage;
-	PlayerPick();
-	EnemyPick();
+	while (fighting == true) {
+		system("cls");
+		std::cout << "Health: " << player->playerStats.currentHealth << "/" << player->playerStats.maxHealth << "  Rock: " << player->playerStats.rock << "  Paper: " << player->playerStats.paper << "  Scissors: " << player->playerStats.scissors << "\n";
+
+
+
+		playerPick = PlayerPick();
+		enemyPick = EnemyPick();
+
+		if ((playerPick == 1 && enemyPick == 3) || (playerPick == 2 && enemyPick == 1) || (playerPick == 3 && enemyPick == 1)) {
+			std::cout << "YOU WIN" << "\n";
+			if (playerPick == 1) {
+				enemy->enemyStats.currentHealth = enemy->enemyStats.currentHealth - player->playerStats.rock;
+			}
+			else if (playerPick == 2) {
+				enemy->enemyStats.currentHealth = enemy->enemyStats.currentHealth - player->playerStats.paper;
+			}
+			else if (playerPick == 3) {
+				enemy->enemyStats.currentHealth = enemy->enemyStats.currentHealth - player->playerStats.scissors;
+			}
+
+		}
+		else if ((playerPick == 1 && enemyPick == 2) || (playerPick == 2 && enemyPick == 3) || (playerPick == 3 && enemyPick == 2)) {
+			if (enemyPick == 1) {
+				player->playerStats.currentHealth = player->playerStats.currentHealth - enemy->enemyStats.rock;
+			}
+			else if (enemyPick == 2) {
+				player->playerStats.currentHealth = player->playerStats.currentHealth - enemy->enemyStats.paper;
+			}
+			else if (enemyPick == 3) {
+				player->playerStats.currentHealth = player->playerStats.currentHealth - enemy->enemyStats.scissors;
+			}
+
+
+
+		}
+		else if (playerPick == enemyPick) {
+			std::cout << "YOU DRAW" << "\n";
+		}
+		else {
+			std::cout << "how?" << "\n";
+		}
+
+		//std::cout << player->playerStats.currentHealth << enemy->enemyStats.currentHealth  << "\n";
+
+	}
 }
 
 int Encounter::PlayerPick()
@@ -31,15 +79,15 @@ int Encounter::PlayerPick()
 	std::cin >> input;
 
 	if (input == "Rock" || input == "1") {
-		//std::cout << "Rock" << "\n";
+		std::cout << "player picks Rock" << "\n";
 		return 1;
 	}
 	else if (input == "Paper" || input == "2") {
-		//std::cout << "Paper" << "\n";
+		std::cout << "player picks Paper" << "\n";
 		return 2;
 	}
 	else if (input == "Scissors" || input == "3") {
-		//std::cout << "Scissors" << "\n";
+		std::cout << "player picks Scissors" << "\n";
 		return 3;
 	}
 	else {
@@ -67,5 +115,5 @@ int Encounter::EnemyPick()
 	}
 
 
-	return 0;
+	return choice;
 }
