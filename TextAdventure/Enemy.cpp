@@ -7,12 +7,19 @@ Enemy::Enemy()
 	enemyStats.rock = 5;
 	enemyStats.paper = 5;
 	enemyStats.scissors = 5;
+	enemyStats.name = "enemy";
+
+	encounterMessage = "An enemy appears";
+	damagedMessage = "Enemy is on its last legs";
+	defeatedMessage = "Enemy is defeated";
+
 }
 
 Enemy::~Enemy()
 {
 
 }
+
 
 void Enemy::rockMessage()
 {

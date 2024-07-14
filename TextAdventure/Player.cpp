@@ -7,6 +7,7 @@ Player::Player()
 	playerStats.rock = 5;
 	playerStats.paper = 5;
 	playerStats.scissors = 5;
+	playerStats.name = "Player";
 }
 
 Player::~Player()

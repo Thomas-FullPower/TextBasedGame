@@ -7,6 +7,8 @@ class Enemy
 public:
 	Stats enemyStats;
 	std::string encounterMessage;
+	std::string damagedMessage;
+	std::string defeatedMessage;
 	
 	Enemy();
 	~Enemy();
@@ -15,4 +17,5 @@ public:
 	void paperMessage();
 	void scissorsMessage();
 };
+
 

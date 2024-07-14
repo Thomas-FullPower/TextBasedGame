@@ -9,7 +9,7 @@ public:
 	~Encounter();
 
 private:
-	void Fight();
+	int Fight();
 	int PlayerPick();
 	int EnemyPick();
 
