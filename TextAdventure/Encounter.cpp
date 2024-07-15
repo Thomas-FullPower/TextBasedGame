@@ -5,7 +5,53 @@ Encounter::Encounter(Player* _player, Enemy* _enemy)
 	player = _player;
 	enemy = _enemy;
 
-	Fight();
+	bool choosing = true;
+	if (Fight() == 1) {
+
+		while (choosing == true) {
+			system("cls");
+			std::cout << "Health: " << player->playerStats.currentHealth << "/" << player->playerStats.maxHealth << "  Rock: " << player->playerStats.rock << "  Paper: " << player->playerStats.paper << "  Scissors: " << player->playerStats.scissors << "\n";
+			std::cout << "\n";
+
+			std::cout << "You can increase a stat by " << 1 << "\nDo you choose Rock Paper or Scissors?\n";
+
+			std::string stat;
+			std::cin >> stat;
+			std::cout << "\n";
+
+			for (int i = 0; i < stat.length(); i++) {
+				stat[i] = tolower(stat[i]);
+			}
+
+			if (stat == "rock" || stat == "1") {
+				player->playerStats.rock = player->playerStats.rock + enemy->statIncrease;
+				std::cout << "Rock increased to " << player->playerStats.rock << "\n";
+
+				choosing = false;
+
+			}
+			else if (stat == "paper" || stat == "2") {
+				player->playerStats.paper = player->playerStats.paper + enemy->statIncrease;
+				std::cout << "Paper increased to " << player->playerStats.paper << "\n";
+
+				choosing = false;
+
+			}
+			else if (stat == "scissors" || stat == "3") {
+				player->playerStats.scissors = player->playerStats.scissors + enemy->statIncrease;
+				std::cout << "Scissors increased to " << player->playerStats.scissors << "\n";
+
+				choosing = false;
+			}
+			else {
+				std::cout << "Not a valid input" << "\n";
+			}
+			std::cin.ignore(2);
+		}
+
+	}
+
+	
 }
 
 Encounter::~Encounter()

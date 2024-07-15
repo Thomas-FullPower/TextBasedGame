@@ -8,6 +8,7 @@ Enemy::Enemy()
 	enemyStats.paper = 5;
 	enemyStats.scissors = 5;
 	enemyStats.name = "enemy";
+	statIncrease = 5;
 
 	encounterMessage = "An enemy appears";
 	damagedMessage = "Enemy is on its last legs";

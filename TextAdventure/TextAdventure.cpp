@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Player.h"
 #include "Enemy.h"
+#include "EvilFrogEnemy.h"
 #include "Encounter.h"
 
 void init();
@@ -11,7 +12,7 @@ int main()
     init();
 
     Player* player = new Player();
-    Enemy* enemy = new Enemy();
+    Enemy* enemy = new EvilFrogEnemy();
 
     Encounter* encounter = new Encounter(player, enemy);
 }

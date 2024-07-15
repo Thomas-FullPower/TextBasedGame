@@ -6,6 +6,7 @@ class Enemy
 {
 public:
 	Stats enemyStats;
+	int statIncrease;
 	std::string encounterMessage;
 	std::string damagedMessage;
 	std::string defeatedMessage;
@@ -13,9 +14,9 @@ public:
 	Enemy();
 	~Enemy();
 
-	void rockMessage();
-	void paperMessage();
-	void scissorsMessage();
+	virtual void rockMessage();
+	virtual void paperMessage();
+	virtual void scissorsMessage();
 };
 
 
