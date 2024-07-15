@@ -13,7 +13,7 @@ Encounter::Encounter(Player* _player, Enemy* _enemy)
 			std::cout << "Health: " << player->playerStats.currentHealth << "/" << player->playerStats.maxHealth << "  Rock: " << player->playerStats.rock << "  Paper: " << player->playerStats.paper << "  Scissors: " << player->playerStats.scissors << "\n";
 			std::cout << "\n";
 
-			std::cout << "You can increase a stat by " << 1 << "\nDo you choose Rock Paper or Scissors?\n";
+			std::cout << "You can increase a stat by " << enemy->statIncrease << "\nDo you choose Rock Paper or Scissors?\n";
 
 			std::string stat;
 			std::cin >> stat;

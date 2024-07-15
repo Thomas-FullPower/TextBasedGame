@@ -130,6 +130,7 @@
     <ClCompile Include="Encounter.cpp" />
     <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="EvilFrogEnemy.cpp" />
+    <ClCompile Include="GameStructure.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="TextAdventure.cpp" />
   </ItemGroup>
@@ -138,6 +139,7 @@
     <ClInclude Include="Encounter.h" />
     <ClInclude Include="Enemy.h" />
     <ClInclude Include="EvilFrogEnemy.h" />
+    <ClInclude Include="GameStructure.h" />
     <ClInclude Include="Player.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
