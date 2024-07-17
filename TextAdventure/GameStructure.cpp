@@ -17,30 +17,54 @@ bool GameStructure::gameLoop() // return false if loose and true if win
 	titleScreen();
 	clearScreen();
 
+	std::cout << "Please enter your name:\n";
+	std::cin >> player->playerStats.name;
+
+	clearScreen();
+
 	bool gaming = true;
 	while (gaming == true) {
-		writeText();
-		if (currentArea != 0) {
-			if (currentArea == 1) {
-				Enemy* enemy = new EvilFrogEnemy();
-				Encounter* fight = new Encounter(player, enemy);
 
-				enemy = nullptr;
-				delete enemy;
-				
-				fight = nullptr;
-				delete fight;
-			}
-
-
-			//ask if you want to go forwards or back
-			currentArea++;
-
+		if (currentArea == 0) {
+			writeText();
 		}
+		else if (currentArea == 1) {
+			Enemy* enemy = new EvilFrogEnemy();
+			Encounter* encounter = new Encounter(player, enemy);
+
+			enemy = nullptr;
+			delete enemy;
+
+			encounter = nullptr;
+			delete encounter;
+		}
+		else if (currentArea == 2) {
+			writeText();
+		}
+		else if (currentArea >= 3 && currentArea <= 6) {
+			// Forest enemies
+		}
+		else if (currentArea == 7) {
+			writeText();
+		}
+		else if (currentArea >= 8 && currentArea <= 11) {
+			// Mountain enemies
+		}
+		else if (currentArea == 12) {
+			writeText();
+		}
+		else if (currentArea == 13) {
+			// Big boss man
+		}
+
+
+
+
+		/// MAKE IT SO THAT CURRENT AREA CHANGES
+
 
 	}
 
-	writeText();
 
 
 
@@ -62,9 +86,17 @@ void GameStructure::writeText()
 			Sleep(50);
 		}
 		std::cin.ignore(1);
-
-		currentArea++;
 	}
+	else if (currentArea == 2) {
+		// leaving home );
+	}
+	else if (currentArea == 7) {
+		// Enter the mountains
+	}
+	else if (currentArea == 12) {
+		// Final boss coming
+	}
+
 }
 
 void GameStructure::titleScreen()
@@ -79,4 +111,9 @@ void GameStructure::clearScreen()
 	system("cls");
 	std::cout << "Health: " << player->playerStats.currentHealth << "/" << player->playerStats.maxHealth << "  Rock: " << player->playerStats.rock << "  Paper: " << player->playerStats.paper << "  Scissors: " << player->playerStats.scissors << "\n";
 	std::cout << "\n";
+}
+
+void GameStructure::finalScreen()
+{
+
 }

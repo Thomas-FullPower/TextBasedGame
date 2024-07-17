@@ -18,6 +18,7 @@ private:
 	void writeText();
 	void titleScreen();
 	void clearScreen();
+	void finalScreen();
 
 	Player* player;
 	int currentArea;
