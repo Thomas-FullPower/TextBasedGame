@@ -6,30 +6,23 @@
 #include "Encounter.h"
 
 
-void init();
-
 int main()
 {
     std::cout << "Hello World!\n";
-    init();
-
-    //Player* player = new Player();
-    //Enemy* enemy = new EvilFrogEnemy();
-
-    //Encounter* encounter = new Encounter(player, enemy);
-    //encounter = nullptr;
-    //delete encounter;
     
 
+    while (true) {
+        Player* player = new Player();
+        GameStructure* game = new GameStructure(player);
 
-}
+        game->gameLoop() == false;
 
-void init() {
-    //std::cout << "INITIALISING\n";
-    Player* player = new Player();
-    GameStructure* game = new GameStructure(player);
+        player = nullptr;
+        delete player;
 
-    while (game->gameLoop() == false);
-
+        game = nullptr;
+        delete game;
+    }
+    
 }
 

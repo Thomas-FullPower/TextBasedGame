@@ -143,6 +143,7 @@ int Encounter::Fight()
 		if (enemy->enemyStats.currentHealth <= 0) {
 			std::cout << "\n" << enemy->defeatedMessage;
 			std::cin.ignore(2);
+			victory = true;
 			return 1;
 		}
 
@@ -151,6 +152,7 @@ int Encounter::Fight()
 
 		if (player->playerStats.currentHealth <= 0) {
 			fighting = false;
+			victory = false;
 			return 0;
 		}
 		

@@ -19,6 +19,8 @@ private:
 	void titleScreen();
 	void clearScreen();
 	void finalScreen();
+	void deathScreen();
+	void areaChange();
 
 	Player* player;
 	int currentArea;

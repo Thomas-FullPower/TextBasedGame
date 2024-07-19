@@ -2,7 +2,7 @@
 
 EvilFrogEnemy::EvilFrogEnemy()
 {
-	enemyStats.maxHealth = 14;
+	enemyStats.maxHealth = 14; 
 	enemyStats.currentHealth = enemyStats.maxHealth;
 	enemyStats.rock = 3;
 	enemyStats.paper = 5;

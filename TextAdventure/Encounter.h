@@ -7,6 +7,7 @@ class Encounter
 public:
 	Encounter(Player* _player, Enemy* _enemy);
 	~Encounter();
+	bool victory;
 
 private:
 	int Fight();
