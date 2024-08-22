@@ -81,21 +81,71 @@ void GameStructure::writeText()
 {
 	clearScreen();
 	if (currentArea == 0) {
-		for (char character : "Into Text") {
+		for (char character : "At the top of the mountain is said to lie treasures of unspeakable value") {
+			std::cout << character;
+			Sleep(50);
+		}
+		std::cin.ignore(2);
+		std::cout << "\n";
+		for (char character : "No one has ever dared to climb the mountain due to the dangers that lay and wait") {
 			std::cout << character;
 			Sleep(50);
 		}
 		std::cin.ignore(1);
 		std::cout << "\n";
-		for (char character : "Hello my name is tom i like to plarty all the time") {
+		for (char character : "But you decide one day you were going to be the first") {
 			std::cout << character;
 			Sleep(50);
 		}
 		std::cin.ignore(1);
+
+		clearScreen();
+
+		for (char character : "'I AM GOING TO CLIMB THE MOUNTAIN' you claim") {
+			std::cout << character;
+			Sleep(50);
+		}
+		std::cin.ignore(1);
+		std::cout << "\n";
+		for (char character : "Davey, who you are talking to laughs at the idea, before realising you are serious") {
+			std::cout << character;
+			Sleep(50);
+		}
+		std::cin.ignore(1);
+		std::cout << "\n";
+		for (char character : "'You think you can climb the mountain? Well, I will not let you go unless you best me in a fight' he claims with upmost confidence") {
+			std::cout << character;
+			Sleep(50);
+		}
+		std::cin.ignore(1);
+
+
+
+
 	}
 	else if (currentArea == 2) {
 		// leaving home );
-		for (char character : "Leaving home") {
+		for (char character : "'You have become powerful, far more powerful than me' he pants ") {
+			std::cout << character;
+			Sleep(50);
+		}
+		std::cin.ignore(2);
+		std::cout << "\n";
+		for (char character : "'I see now you may be ready to climb the mountain, I wish you luck'") {
+			std::cout << character;
+			Sleep(50);
+		}
+		std::cin.ignore(1);
+
+		clearScreen();
+
+		for (char character : "The next day you pack to leave and head off into the forest between the mountains and the city") {
+			std::cout << character;
+			Sleep(50);
+		}
+		std::cin.ignore(1);
+		std::cout << "\n";
+		for (char character : "Adventure awaits") {
 			std::cout << character;
 			Sleep(50);
 		}
@@ -103,15 +153,39 @@ void GameStructure::writeText()
 	}
 	else if (currentArea == 7) {
 		// Enter the mountains
-		for (char character : "entering mountains") {
+			for (char character : "You come to the end of the forest and decide to set up camp before what is ahead") {
+				std::cout << character;
+				Sleep(50);
+			}
+			std::cin.ignore(2);
+			std::cout << "\n";
+			for (char character : "Throughout the night you hear rumblings and a loud roar") {
+				std::cout << character;
+				Sleep(50);
+			}
+			std::cin.ignore(1);
+			std::cout << "\n";
+			for (char character : "Something is waiting for you") {
+				std::cout << character;
+				Sleep(50);
+			}
+			std::cin.ignore(1);
+	}
+	else if (currentArea == 12) {
+		// Final boss coming
+		for (char character : "Ahead of you, you see a massive creature the size of a mountain and seemly made of stone") {
+			std::cout << character;
+			Sleep(50);
+		}
+		std::cin.ignore(2);
+		std::cout << "\n";
+		for (char character : "This is your last chance to rest before facing the creature") {
 			std::cout << character;
 			Sleep(50);
 		}
 		std::cin.ignore(1);
-	}
-	else if (currentArea == 12) {
-		// Final boss coming
-		for (char character : "Boss incoming") {
+		std::cout << "\n";
+		for (char character : "You set up camp awaiting the upcoming challenge") {
 			std::cout << character;
 			Sleep(50);
 		}

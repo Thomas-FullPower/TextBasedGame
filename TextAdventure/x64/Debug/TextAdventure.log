@@ -2,10 +2,4 @@
 C:\Users\thoma\OneDrive\Documents\GitHub\TextBasedGame\TextAdventure\Commons.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   (compiling source file 'GameStructure.cpp')
   
-  TextAdventure.cpp
-C:\Users\thoma\OneDrive\Documents\GitHub\TextBasedGame\TextAdventure\Commons.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  (compiling source file 'TextAdventure.cpp')
-  
-C:\Users\thoma\OneDrive\Documents\GitHub\TextBasedGame\TextAdventure\TextAdventure.cpp(18,26): warning C4553: '==': result of expression not used; did you intend '='?
-  Generating Code...
   TextAdventure.vcxproj -> C:\Users\thoma\OneDrive\Documents\GitHub\TextBasedGame\TextAdventure\x64\Debug\TextAdventure.exe
