@@ -30,7 +30,7 @@ bool GameStructure::gameLoop() // return false if loose and true if win
 		}
 		else if (currentArea == 1) {
 
-			Enemy* enemy = new EvilFrogEnemy();
+			Enemy* enemy = new EnemyDavey();
 			Encounter* encounter = new Encounter(player, enemy);
 
 			if (encounter->victory == false) {
@@ -50,6 +50,76 @@ bool GameStructure::gameLoop() // return false if loose and true if win
 		}
 		else if (currentArea >= 3 && currentArea <= 6) {
 			// Forest enemies
+
+			int choice = (std::rand() % 4) + 1;
+
+			if (choice == 1) {
+				Enemy* enemy = new EvilFrogEnemy();
+				Encounter* encounter = new Encounter(player, enemy);
+
+				if (encounter->victory == false) {
+					deathScreen();
+					gaming = false;
+					return false;
+				}
+
+				enemy = nullptr;
+				delete enemy;
+
+				encounter = nullptr;
+				delete encounter;
+			}
+			else if (choice == 2) {
+				Enemy* enemy = new EnemyAgressiveShrub();
+				Encounter* encounter = new Encounter(player, enemy);
+
+				if (encounter->victory == false) {
+					deathScreen();
+					gaming = false;
+					return false;
+				}
+
+				enemy = nullptr;
+				delete enemy;
+
+				encounter = nullptr;
+				delete encounter;
+			}
+			else if (choice == 3) {
+				Enemy* enemy = new EnemyPonderingDeer();
+				Encounter* encounter = new Encounter(player, enemy);
+
+				if (encounter->victory == false) {
+					deathScreen();
+					gaming = false;
+					return false;
+				}
+
+				enemy = nullptr;
+				delete enemy;
+
+				encounter = nullptr;
+				delete encounter;
+			}
+			else if (choice == 4) {
+				Enemy* enemy = new EnemyCursedFlowers();
+				Encounter* encounter = new Encounter(player, enemy);
+
+				if (encounter->victory == false) {
+					deathScreen();
+					gaming = false;
+					return false;
+				}
+
+				enemy = nullptr;
+				delete enemy;
+
+				encounter = nullptr;
+				delete encounter;
+			}
+
+
+
 		}
 		else if (currentArea == 7) {
 			writeText();

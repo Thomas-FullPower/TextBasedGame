@@ -129,6 +129,10 @@
   <ItemGroup>
     <ClCompile Include="Encounter.cpp" />
     <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="EnemyAgressiveShrub.cpp" />
+    <ClCompile Include="EnemyCursedFlowers.cpp" />
+    <ClCompile Include="EnemyDavey.cpp" />
+    <ClCompile Include="EnemyPonderingDeer.cpp" />
     <ClCompile Include="EvilFrogEnemy.cpp" />
     <ClCompile Include="GameStructure.cpp" />
     <ClCompile Include="Player.cpp" />
@@ -138,6 +142,10 @@
     <ClInclude Include="Commons.h" />
     <ClInclude Include="Encounter.h" />
     <ClInclude Include="Enemy.h" />
+    <ClInclude Include="EnemyAgressiveShrub.h" />
+    <ClInclude Include="EnemyCursedFlowers.h" />
+    <ClInclude Include="EnemyDavey.h" />
+    <ClInclude Include="EnemyPonderingDeer.h" />
     <ClInclude Include="EvilFrogEnemy.h" />
     <ClInclude Include="GameStructure.h" />
     <ClInclude Include="Player.h" />

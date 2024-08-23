@@ -4,7 +4,12 @@
 #include "Player.h"
 #include "Encounter.h"
 #include "Enemy.h"
+#include "EnemyDavey.h"
 #include "EvilFrogEnemy.h"
+#include "EnemyAgressiveShrub.h"
+#include "EnemyPonderingDeer.h"
+#include "EnemyCursedFlowers.h"
+
 
 class GameStructure
 {
