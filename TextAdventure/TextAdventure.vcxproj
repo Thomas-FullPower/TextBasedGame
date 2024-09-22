@@ -127,25 +127,35 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BossTitan.cpp" />
     <ClCompile Include="Encounter.cpp" />
     <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="EnemyAgressiveShrub.cpp" />
     <ClCompile Include="EnemyCursedFlowers.cpp" />
     <ClCompile Include="EnemyDavey.cpp" />
+    <ClCompile Include="EnemyLiar.cpp" />
+    <ClCompile Include="EnemyLittleMountainTitan.cpp" />
     <ClCompile Include="EnemyPonderingDeer.cpp" />
+    <ClCompile Include="EnemyRockyGhoul.cpp" />
+    <ClCompile Include="EnemyToughGuy.cpp" />
     <ClCompile Include="EvilFrogEnemy.cpp" />
     <ClCompile Include="GameStructure.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="TextAdventure.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BossTitan.h" />
     <ClInclude Include="Commons.h" />
     <ClInclude Include="Encounter.h" />
     <ClInclude Include="Enemy.h" />
     <ClInclude Include="EnemyAgressiveShrub.h" />
     <ClInclude Include="EnemyCursedFlowers.h" />
     <ClInclude Include="EnemyDavey.h" />
+    <ClInclude Include="EnemyLiar.h" />
+    <ClInclude Include="EnemyLittleMountainTitan.h" />
     <ClInclude Include="EnemyPonderingDeer.h" />
+    <ClInclude Include="EnemyRockyGhoul.h" />
+    <ClInclude Include="EnemyToughGuy.h" />
     <ClInclude Include="EvilFrogEnemy.h" />
     <ClInclude Include="GameStructure.h" />
     <ClInclude Include="Player.h" />

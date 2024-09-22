@@ -8,7 +8,7 @@ EvilFrogEnemy::EvilFrogEnemy()
 	enemyStats.paper = 5;
 	enemyStats.scissors = 4;
 	enemyStats.name = "Evil Frog";
-	statIncrease = 2;
+	statIncrease = 1;
 
 	encounterMessage = "An Evil Frog lands in front of you";
 	damagedMessage = "The Evil Frogs rage burns bright as it starts to look injered";

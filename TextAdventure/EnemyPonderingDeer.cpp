@@ -8,7 +8,7 @@ EnemyPonderingDeer::EnemyPonderingDeer()
 	enemyStats.paper = 2;
 	enemyStats.scissors = 5;
 	enemyStats.name = "Pondering deer";
-	statIncrease = 2;
+	statIncrease = 1;
 
 	encounterMessage = "A pondering deer begins pondering";
 	damagedMessage = "Pondering deer is starting to struggle to think";

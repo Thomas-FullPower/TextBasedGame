@@ -8,7 +8,7 @@ EnemyCursedFlowers::EnemyCursedFlowers()
 	enemyStats.paper = 3;
 	enemyStats.scissors = 4;
 	enemyStats.name = "Cursed flowers";
-	statIncrease = 2;
+	statIncrease = 1;
 
 	encounterMessage = "Some cursed flowers bloom in front of you";
 	damagedMessage = "The curse begins to wilt the flowers";

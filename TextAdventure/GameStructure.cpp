@@ -126,12 +126,99 @@ bool GameStructure::gameLoop() // return false if loose and true if win
 		}
 		else if (currentArea >= 8 && currentArea <= 11) {
 			// Mountain enemies
+
+			int choice = (std::rand() % 4) + 1;
+
+			if (choice == 1) {
+				Enemy* enemy = new EnemyLittleMountainTitan();
+				Encounter* encounter = new Encounter(player, enemy);
+
+				if (encounter->victory == false) {
+					deathScreen();
+					gaming = false;
+					return false;
+				}
+
+				enemy = nullptr;
+				delete enemy;
+
+				encounter = nullptr;
+				delete encounter;
+			}
+			else if (choice == 2) {
+				Enemy* enemy = new EnemyLiar();
+				Encounter* encounter = new Encounter(player, enemy);
+
+				if (encounter->victory == false) {
+					deathScreen();
+					gaming = false;
+					return false;
+				}
+
+				enemy = nullptr;
+				delete enemy;
+
+				encounter = nullptr;
+				delete encounter;
+			}
+			else if (choice == 3) {
+				Enemy* enemy = new EnemyRockyGhoul();
+				Encounter* encounter = new Encounter(player, enemy);
+
+				if (encounter->victory == false) {
+					deathScreen();
+					gaming = false;
+					return false;
+				}
+
+				enemy = nullptr;
+				delete enemy;
+
+				encounter = nullptr;
+				delete encounter;
+			}
+			else if (choice == 4) {
+				Enemy* enemy = new EnemyToughGuy();
+				Encounter* encounter = new Encounter(player, enemy);
+
+				if (encounter->victory == false) {
+					deathScreen();
+					gaming = false;
+					return false;
+				}
+
+				enemy = nullptr;
+				delete enemy;
+
+				encounter = nullptr;
+				delete encounter;
+			}
+
+
 		}
 		else if (currentArea == 12) {
 			writeText();
 		}
 		else if (currentArea == 13) {
 			// Big boss man
+
+			Enemy* enemy = new BossTitan ();
+			Encounter* encounter = new Encounter(player, enemy);
+
+			if (encounter->victory == false) {
+				deathScreen();
+				gaming = false;
+				return false;
+			}
+
+			enemy = nullptr;
+			delete enemy;
+
+			encounter = nullptr;
+			delete encounter;
+
+
+
 		}
 
 		if (gaming == true) {

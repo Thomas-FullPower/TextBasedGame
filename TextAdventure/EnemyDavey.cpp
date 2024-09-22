@@ -8,7 +8,7 @@ EnemyDavey::EnemyDavey()
 	enemyStats.paper = 4;
 	enemyStats.scissors = 4;
 	enemyStats.name = "Davey";
-	statIncrease = 2;
+	statIncrease = 1;
 
 	encounterMessage = "Davey grabs his weapons: a hammer, a sword and a net and readys himself to fight";
 	damagedMessage = "Davey is beginning to look tired";

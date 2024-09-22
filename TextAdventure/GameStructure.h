@@ -9,6 +9,11 @@
 #include "EnemyAgressiveShrub.h"
 #include "EnemyPonderingDeer.h"
 #include "EnemyCursedFlowers.h"
+#include "EnemyLittleMountainTitan.h"
+#include "EnemyLiar.h"
+#include "EnemyRockyGhoul.h"
+#include "EnemyToughGuy.h"
+#include "BossTitan.h"
 
 
 class GameStructure

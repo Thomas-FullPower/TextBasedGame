@@ -8,7 +8,7 @@ EnemyAgressiveShrub::EnemyAgressiveShrub()
 	enemyStats.paper = 3;
 	enemyStats.scissors = 4;
 	enemyStats.name = "Agressive shrub";
-	statIncrease = 2;
+	statIncrease = 1;
 
 	encounterMessage = "An agressive shrub rustles in your direction";
 	damagedMessage = "Leaves are starting to fall off the shrub";
