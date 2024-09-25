@@ -1,0 +1,4 @@
+﻿  Encounter.cpp
+C:\Users\b017722n\Documents\GitHub\TextBasedGame\TextAdventure\Commons.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\b017722n\Documents\GitHub\TextBasedGame\TextAdventure\Encounter.cpp(163,1): warning C4715: 'Encounter::Fight': not all control paths return a value
+  TextAdventure.vcxproj -> C:\Users\b017722n\Documents\GitHub\TextBasedGame\TextAdventure\x64\Debug\TextAdventure.exe

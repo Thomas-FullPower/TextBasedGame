@@ -12,7 +12,7 @@ EnemyPonderingDeer::EnemyPonderingDeer()
 
 	encounterMessage = "A pondering deer begins pondering";
 	damagedMessage = "Pondering deer is starting to struggle to think";
-	defeatedMessage = "Pondering deer questions weather keeping fighting is worth it and leaves";
+	defeatedMessage = "Pondering deer questions whether keeping fighting is worth it and leaves";
 }
 
 EnemyPonderingDeer::~EnemyPonderingDeer()

@@ -242,19 +242,18 @@ void GameStructure::writeText()
 			std::cout << character;
 			Sleep(50);
 		}
-		std::cin.ignore(2);
-		std::cout << "\n";
+		std::cout << "\n\n";
 		for (char character : "No one has ever dared to climb the mountain due to the dangers that lay and wait") {
 			std::cout << character;
 			Sleep(50);
 		}
-		std::cin.ignore(1);
-		std::cout << "\n";
+		std::cout << "\n\n";
 		for (char character : "But you decide one day you were going to be the first") {
 			std::cout << character;
 			Sleep(50);
 		}
-		std::cin.ignore(1);
+		std::cout << "\n\n";
+		system("PAUSE");
 
 		clearScreen();
 
@@ -262,20 +261,19 @@ void GameStructure::writeText()
 			std::cout << character;
 			Sleep(50);
 		}
-		std::cin.ignore(1);
-		std::cout << "\n";
+		std::cout << "\n\n";
 		for (char character : "Davey, who you are talking to laughs at the idea, before realising you are serious") {
 			std::cout << character;
 			Sleep(50);
 		}
-		std::cin.ignore(1);
-		std::cout << "\n";
+		std::cout << "\n\n";
 		for (char character : "'You think you can climb the mountain? Well, I will not let you go unless you best me in a fight' he claims with upmost confidence") {
 			std::cout << character;
 			Sleep(50);
 		}
-		std::cin.ignore(1);
+		std::cout << "\n\n";
 
+		system("PAUSE");
 
 
 
@@ -286,13 +284,13 @@ void GameStructure::writeText()
 			std::cout << character;
 			Sleep(50);
 		}
-		std::cin.ignore(2);
-		std::cout << "\n";
+		std::cout << "\n\n";
 		for (char character : "'I see now you may be ready to climb the mountain, I wish you luck'") {
 			std::cout << character;
 			Sleep(50);
 		}
-		std::cin.ignore(1);
+		std::cout << "\n\n";
+		system("PAUSE");
 
 		clearScreen();
 
@@ -300,13 +298,13 @@ void GameStructure::writeText()
 			std::cout << character;
 			Sleep(50);
 		}
-		std::cin.ignore(1);
-		std::cout << "\n";
+		std::cout << "\n\n";
 		for (char character : "Adventure awaits") {
 			std::cout << character;
 			Sleep(50);
 		}
-		std::cin.ignore(1);
+		std::cout << "\n\n";
+		system("PAUSE");
 	}
 	else if (currentArea == 7) {
 		// Enter the mountains
@@ -314,19 +312,18 @@ void GameStructure::writeText()
 				std::cout << character;
 				Sleep(50);
 			}
-			std::cin.ignore(2);
-			std::cout << "\n";
+			std::cout << "\n\n";
 			for (char character : "Throughout the night you hear rumblings and a loud roar") {
 				std::cout << character;
 				Sleep(50);
 			}
-			std::cin.ignore(1);
-			std::cout << "\n";
+			std::cout << "\n\n";
 			for (char character : "Something is waiting for you") {
 				std::cout << character;
 				Sleep(50);
 			}
-			std::cin.ignore(1);
+			std::cout << "\n\n";
+			system("PAUSE");
 	}
 	else if (currentArea == 12) {
 		// Final boss coming
@@ -334,19 +331,18 @@ void GameStructure::writeText()
 			std::cout << character;
 			Sleep(50);
 		}
-		std::cin.ignore(2);
-		std::cout << "\n";
+		std::cout << "\n\n";;
 		for (char character : "This is your last chance to rest before facing the creature") {
 			std::cout << character;
 			Sleep(50);
 		}
-		std::cin.ignore(1);
-		std::cout << "\n";
+		std::cout << "\n\n";
 		for (char character : "You set up camp awaiting the upcoming challenge") {
 			std::cout << character;
 			Sleep(50);
 		}
-		std::cin.ignore(1);
+		std::cout << "\n\n";
+		system("PAUSE");
 	}
 
 }
@@ -355,7 +351,8 @@ void GameStructure::titleScreen()
 {
 	system("cls");
 	std::cout << "This is the titleScreen :)" << "\n";
-	std::cin.ignore(1);
+	std::cout << "\n\n";
+	system("PAUSE");;
 }
 
 void GameStructure::clearScreen()
@@ -367,7 +364,8 @@ void GameStructure::clearScreen()
 
 void GameStructure::finalScreen()
 {
-
+	std::cout << "\n\n";
+	system("PAUSE");
 }
 
 void GameStructure::deathScreen()
@@ -375,8 +373,8 @@ void GameStructure::deathScreen()
 	clearScreen();
 
 	std::cout << "You have been defeated\n\nTry harder next time";
-	std::cin.ignore(1);
-
+	std::cout << "\n\n";
+	system("PAUSE");
 }
 
 void GameStructure::areaChange()
@@ -389,7 +387,8 @@ void GameStructure::areaChange()
 		clearScreen();
 		std::cout << "There is no turning back now\n\nYou head deeper towards your goal\n";
 		currentArea++;
-		std::cin.ignore(1);
+		std::cout << "\n\n";
+		system("PAUSE");
 
 	}
 	else if (currentArea >= 4 && currentArea <= 6) {
@@ -413,7 +412,8 @@ void GameStructure::areaChange()
 			currentArea++;
 			std::cout << "Indecisive in your decision you decide to go deeper";
 		}
-		std::cin.ignore(2);
+		std::cout << "\n\n";
+		system("PAUSE");
 
 	}
 	else if (currentArea == 8) {
@@ -437,7 +437,8 @@ void GameStructure::areaChange()
 			currentArea++;
 			std::cout << "Indecisive in your decision you decide to go deeper";
 		}
-		std::cin.ignore(2);
+		std::cout << "\n\n";
+		system("PAUSE");
 
 
 	}
@@ -462,7 +463,8 @@ void GameStructure::areaChange()
 			currentArea++;
 			std::cout << "Indecisive in your decision you decide to go deeper";
 		}
-		std::cin.ignore(2);
+		std::cout << "\n\n";
+		system("PAUSE");
 
 	}
 	else if (currentArea == 12) {
@@ -487,7 +489,8 @@ void GameStructure::areaChange()
 			currentArea++;
 			std::cout << "Indecisive in your decision you decide to fight";
 		}
-		std::cin.ignore(2);
+		std::cout << "\n\n";
+		system("PAUSE");
 
 	}
 }

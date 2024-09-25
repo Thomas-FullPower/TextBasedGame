@@ -25,28 +25,29 @@ Encounter::Encounter(Player* _player, Enemy* _enemy)
 
 			if (stat == "rock" || stat == "1") {
 				player->playerStats.rock = player->playerStats.rock + enemy->statIncrease;
-				std::cout << "Rock increased to " << player->playerStats.rock << "\n";
+				std::cout << "Rock increased to " << player->playerStats.rock;
 
 				choosing = false;
 
 			}
 			else if (stat == "paper" || stat == "2") {
 				player->playerStats.paper = player->playerStats.paper + enemy->statIncrease;
-				std::cout << "Paper increased to " << player->playerStats.paper << "\n";
+				std::cout << "Paper increased to " << player->playerStats.paper;
 
 				choosing = false;
 
 			}
 			else if (stat == "scissors" || stat == "3") {
 				player->playerStats.scissors = player->playerStats.scissors + enemy->statIncrease;
-				std::cout << "Scissors increased to " << player->playerStats.scissors << "\n";
+				std::cout << "Scissors increased to " << player->playerStats.scissors;
 
 				choosing = false;
 			}
 			else {
-				std::cout << "Not a valid input" << "\n";
+				std::cout << "Not a valid input";
 			}
-			std::cin.ignore(2);
+			std::cout << "\n\n";
+			system("PAUSE");
 		}
 
 	}
@@ -142,12 +143,11 @@ int Encounter::Fight()
 		
 		if (enemy->enemyStats.currentHealth <= 0) {
 			std::cout << "\n" << enemy->defeatedMessage;
-			std::cin.ignore(2);
+			std::cout << "\n\n";
+			system("PAUSE");
 			victory = true;
 			return 1;
 		}
-
-		std::cin.ignore(2);
 
 
 		if (player->playerStats.currentHealth <= 0) {
@@ -156,7 +156,8 @@ int Encounter::Fight()
 			return 0;
 		}
 		
-
+		std::cout << "\n\n";
+		system("PAUSE");
 
 	}
 }

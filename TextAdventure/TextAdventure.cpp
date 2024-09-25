@@ -10,6 +10,8 @@ int main()
 {
     std::cout << "Hello World!\n";
     
+    //setbuf(stdout, NULL);
+    
 
     while (true) {
         Player* player = new Player();
