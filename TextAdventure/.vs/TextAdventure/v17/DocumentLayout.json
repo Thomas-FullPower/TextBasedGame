@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{5F21BADD-42AE-48FE-B334-E943A86CD7F0}|TextAdventure.vcxproj|solutionrelative:Encounter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F21BADD-42AE-48FE-B334-E943A86CD7F0}|TextAdventure.vcxproj|C:\\Users\\b017722n\\Documents\\GitHub\\TextBasedGame\\TextAdventure\\TextAdventure.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5F21BADD-42AE-48FE-B334-E943A86CD7F0}|TextAdventure.vcxproj|solutionrelative:TextAdventure.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5F21BADD-42AE-48FE-B334-E943A86CD7F0}|TextAdventure.vcxproj|C:\\Users\\b017722n\\Documents\\GitHub\\TextBasedGame\\TextAdventure\\GameStructure.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5F21BADD-42AE-48FE-B334-E943A86CD7F0}|TextAdventure.vcxproj|solutionrelative:GameStructure.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F21BADD-42AE-48FE-B334-E943A86CD7F0}|TextAdventure.vcxproj|C:\\Users\\b017722n\\Documents\\GitHub\\TextBasedGame\\TextAdventure\\TextAdventure.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5F21BADD-42AE-48FE-B334-E943A86CD7F0}|TextAdventure.vcxproj|solutionrelative:TextAdventure.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F21BADD-42AE-48FE-B334-E943A86CD7F0}|TextAdventure.vcxproj|C:\\Users\\b017722n\\Documents\\GitHub\\TextBasedGame\\TextAdventure\\EnemyDavey.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -128,33 +128,33 @@
               "RelativeDocumentMoniker": "Encounter.cpp",
               "ToolTip": "C:\\Users\\b017722n\\Documents\\GitHub\\TextBasedGame\\TextAdventure\\Encounter.cpp",
               "RelativeToolTip": "Encounter.cpp",
-              "ViewState": "AQIAABAAAAAAAAAAAAAAABsAAABBAAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAAAEoAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-25T19:00:32.937Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TextAdventure.cpp",
               "DocumentMoniker": "C:\\Users\\b017722n\\Documents\\GitHub\\TextBasedGame\\TextAdventure\\TextAdventure.cpp",
               "RelativeDocumentMoniker": "TextAdventure.cpp",
               "ToolTip": "C:\\Users\\b017722n\\Documents\\GitHub\\TextBasedGame\\TextAdventure\\TextAdventure.cpp",
               "RelativeToolTip": "TextAdventure.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-25T15:17:29.585Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "GameStructure.cpp",
               "DocumentMoniker": "C:\\Users\\b017722n\\Documents\\GitHub\\TextBasedGame\\TextAdventure\\GameStructure.cpp",
               "RelativeDocumentMoniker": "GameStructure.cpp",
               "ToolTip": "C:\\Users\\b017722n\\Documents\\GitHub\\TextBasedGame\\TextAdventure\\GameStructure.cpp",
               "RelativeToolTip": "GameStructure.cpp",
-              "ViewState": "AQIAADgAAAAAAAAAAAAAALgBAAASAAAA",
+              "ViewState": "AQIAAHUBAAAAAAAAAAAmwKwBAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-25T14:57:33.478Z",
               "EditorCaption": ""
@@ -169,8 +169,7 @@
               "RelativeToolTip": "EvilFrogEnemy.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-25T14:57:33.449Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T14:57:33.449Z"
             },
             {
               "$type": "Document",
@@ -182,8 +181,7 @@
               "RelativeToolTip": "EnemyPonderingDeer.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-25T14:57:33.475Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T14:57:33.475Z"
             },
             {
               "$type": "Document",
@@ -195,8 +193,7 @@
               "RelativeToolTip": "EnemyLiar.cpp",
               "ViewState": "AQIAAAIAAAAAAAAAAAAAAA8AAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-25T14:57:33.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T14:57:33.476Z"
             },
             {
               "$type": "Document",
@@ -208,8 +205,7 @@
               "RelativeToolTip": "EnemyRockyGhoul.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-25T14:57:33.477Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T14:57:33.477Z"
             },
             {
               "$type": "Document",
@@ -221,8 +217,7 @@
               "RelativeToolTip": "EnemyToughGuy.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-25T14:57:33.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T14:57:33.513Z"
             },
             {
               "$type": "Document",
@@ -234,8 +229,7 @@
               "RelativeToolTip": "EnemyDavey.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-25T14:57:33.583Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T14:57:33.583Z"
             },
             {
               "$type": "Document",
@@ -247,8 +241,7 @@
               "RelativeToolTip": "EnemyCursedFlowers.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-25T14:57:33.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T14:57:33.584Z"
             },
             {
               "$type": "Document",

@@ -1,4 +1,4 @@
-#include "GameStructure.h"
+﻿#include "GameStructure.h"
 
 GameStructure::GameStructure(Player* player)
 {
@@ -217,8 +217,9 @@ bool GameStructure::gameLoop() // return false if loose and true if win
 			encounter = nullptr;
 			delete encounter;
 
-
-
+			finalScreen();
+			gaming = false;
+			return false;
 		}
 
 		if (gaming == true) {
@@ -350,7 +351,15 @@ void GameStructure::writeText()
 void GameStructure::titleScreen()
 {
 	system("cls");
-	std::cout << "This is the titleScreen :)" << "\n";
+	std::cout << "RRRRRR   PPPPPP   SSSSS      QQQQQ  U     U EEEEEEE  SSSSS  TTTTTTT" << "\n";
+	std::cout << "R     R  P     P S     S    Q     Q U     U E       S     S    T   " << "\n";
+	std::cout << "R     R  P     P S          Q     Q U     U E       S          T   " << "\n";
+	std::cout << "RRRRRR   PPPPPP   SSSSS     Q     Q U     U EEEEEEE  SSSSS     T   " << "\n";
+	std::cout << "R  RR    P             S    Q    QQ U     U E             S    T   " << "\n";
+	std::cout << "R   RR   P       SSSSSS      QQQQQQ  UUUUU  EEEEEEE SSSSSS     T   " << "\n";
+
+
+
 	std::cout << "\n\n";
 	system("PAUSE");;
 }
@@ -364,8 +373,51 @@ void GameStructure::clearScreen()
 
 void GameStructure::finalScreen()
 {
+	clearScreen();
+	for (char character : "After a long fought battle you finally defeat the Titan") {
+		std::cout << character;
+		Sleep(50);
+	}
+	std::cout << "\n\n";
+	for (char character : "You see a chest by where the titan was despite being unlocked it must contain your treasure") {
+		std::cout << character;
+		Sleep(50);
+	}
+	std::cout << "\n\n";
+	for (char character : "You opprouch the chest and open it") {
+		std::cout << character;
+		Sleep(50);
+	}
 	std::cout << "\n\n";
 	system("PAUSE");
+
+	clearScreen();
+	for (char character : "Its empty") {
+		std::cout << character;
+		Sleep(50);
+	}
+	std::cout << "\n\n";
+	for (char character : "While you where fighting the Titan someone stole it from under your nose") {
+		std::cout << character;
+		Sleep(50);
+	}
+	std::cout << "\n\n";
+	for (char character : "It could only be one man: Davey") {
+		std::cout << character;
+		Sleep(50);
+	}
+	std::cout << "\n\n";
+	for (char character : "You swear to get your revenge for what he has done to you") {
+		std::cout << character;
+		Sleep(50);
+	}
+	std::cout << "\n\n";
+	system("PAUSE");
+	clearScreen();
+
+	std::cout << "The end" << "\n\n" << "Thanks for playing" << "\n\n";
+	system("PAUSE");
+
 }
 
 void GameStructure::deathScreen()

@@ -1,8 +1,6 @@
 #include <iostream>
 #include "GameStructure.h"
 #include "Player.h"
-#include "Enemy.h"
-#include "EvilFrogEnemy.h"
 #include "Encounter.h"
 
 

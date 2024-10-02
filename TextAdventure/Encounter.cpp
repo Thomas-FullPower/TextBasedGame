@@ -72,8 +72,8 @@ int Encounter::Fight()
 
 	system("cls");
 	std::cout << "Health: " << player->playerStats.currentHealth << "/" << player->playerStats.maxHealth << "  Rock: " << player->playerStats.rock << "  Paper: " << player->playerStats.paper << "  Scissors: " << player->playerStats.scissors << "\n";
-	std::cout << "\n" <<enemy->encounterMessage << "\n";
-	std::cin.ignore(1);
+	std::cout << "\n" <<enemy->encounterMessage << "\n\n";
+	system("PAUSE");
 
 	while (fighting == true) {
 		system("cls");
