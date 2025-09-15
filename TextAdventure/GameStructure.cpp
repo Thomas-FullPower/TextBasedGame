@@ -39,11 +39,11 @@ bool GameStructure::gameLoop() // return false if loose and true if win
 				return false;
 			}
 
-			enemy = nullptr;
 			delete enemy;
+			enemy = nullptr;
 
-			encounter = nullptr;
 			delete encounter;
+			encounter = nullptr;
 		}
 		else if (currentArea == 2) {
 			writeText();
@@ -63,11 +63,11 @@ bool GameStructure::gameLoop() // return false if loose and true if win
 					return false;
 				}
 
-				enemy = nullptr;
 				delete enemy;
+				enemy = nullptr;
 
-				encounter = nullptr;
 				delete encounter;
+				encounter = nullptr;
 			}
 			else if (choice == 2) {
 				Enemy* enemy = new EnemyAgressiveShrub();
@@ -79,11 +79,11 @@ bool GameStructure::gameLoop() // return false if loose and true if win
 					return false;
 				}
 
-				enemy = nullptr;
 				delete enemy;
+				enemy = nullptr;
 
-				encounter = nullptr;
 				delete encounter;
+				encounter = nullptr;
 			}
 			else if (choice == 3) {
 				Enemy* enemy = new EnemyPonderingDeer();
@@ -95,11 +95,11 @@ bool GameStructure::gameLoop() // return false if loose and true if win
 					return false;
 				}
 
-				enemy = nullptr;
 				delete enemy;
+				enemy = nullptr;
 
-				encounter = nullptr;
 				delete encounter;
+				encounter = nullptr;
 			}
 			else if (choice == 4) {
 				Enemy* enemy = new EnemyCursedFlowers();
@@ -111,11 +111,11 @@ bool GameStructure::gameLoop() // return false if loose and true if win
 					return false;
 				}
 
-				enemy = nullptr;
 				delete enemy;
+				enemy = nullptr;
 
-				encounter = nullptr;
 				delete encounter;
+				encounter = nullptr;
 			}
 
 
@@ -139,11 +139,11 @@ bool GameStructure::gameLoop() // return false if loose and true if win
 					return false;
 				}
 
-				enemy = nullptr;
 				delete enemy;
+				enemy = nullptr;
 
-				encounter = nullptr;
 				delete encounter;
+				encounter = nullptr;
 			}
 			else if (choice == 2) {
 				Enemy* enemy = new EnemyLiar();
@@ -155,11 +155,11 @@ bool GameStructure::gameLoop() // return false if loose and true if win
 					return false;
 				}
 
-				enemy = nullptr;
 				delete enemy;
+				enemy = nullptr;
 
-				encounter = nullptr;
 				delete encounter;
+				encounter = nullptr;
 			}
 			else if (choice == 3) {
 				Enemy* enemy = new EnemyRockyGhoul();
@@ -171,11 +171,11 @@ bool GameStructure::gameLoop() // return false if loose and true if win
 					return false;
 				}
 
-				enemy = nullptr;
 				delete enemy;
+				enemy = nullptr;
 
-				encounter = nullptr;
 				delete encounter;
+				encounter = nullptr;
 			}
 			else if (choice == 4) {
 				Enemy* enemy = new EnemyToughGuy();
@@ -187,11 +187,11 @@ bool GameStructure::gameLoop() // return false if loose and true if win
 					return false;
 				}
 
-				enemy = nullptr;
 				delete enemy;
+				enemy = nullptr;
 
-				encounter = nullptr;
 				delete encounter;
+				encounter = nullptr;
 			}
 
 
@@ -211,11 +211,11 @@ bool GameStructure::gameLoop() // return false if loose and true if win
 				return false;
 			}
 
-			enemy = nullptr;
 			delete enemy;
+			enemy = nullptr;
 
-			encounter = nullptr;
 			delete encounter;
+			encounter = nullptr;
 
 			finalScreen();
 			gaming = false;
