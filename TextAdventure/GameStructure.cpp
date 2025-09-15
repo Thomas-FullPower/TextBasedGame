@@ -8,8 +8,8 @@ GameStructure::GameStructure(Player* player)
 
 GameStructure::~GameStructure()
 {
-	player = nullptr;
 	delete player;
+	player = nullptr;
 }
 
 bool GameStructure::gameLoop() // return false if loose and true if win

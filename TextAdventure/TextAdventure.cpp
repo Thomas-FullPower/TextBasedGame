@@ -17,11 +17,11 @@ int main()
 
         game->gameLoop() == false;
 
-        player = nullptr;
         delete player;
+        player = nullptr;
 
-        game = nullptr;
         delete game;
+        game = nullptr;
     }
     
 }

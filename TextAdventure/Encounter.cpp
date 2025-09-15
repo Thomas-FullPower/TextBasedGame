@@ -57,11 +57,11 @@ Encounter::Encounter(Player* _player, Enemy* _enemy)
 
 Encounter::~Encounter()
 {
-	player = nullptr;
 	delete player;
+	player = nullptr;
 
-	enemy = nullptr;
 	delete enemy;
+	enemy = nullptr;
 }
 
 int Encounter::Fight()
